@@ -1,0 +1,25 @@
+.leafletContainer{
+    height: 400px;
+    width: 100vw;
+}
+.leafletContainer .leaflet-container{
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+}
+@media (max-width:740px){
+    .leafletContainer {
+        height: 300px;
+        width: 100vw;
+    }
+    .leaflet-container .leaflet-marker-icon.leaflet-interactive{
+        margin-top: -33px !important;
+        width: 20px !important;
+        height: 33px !important;
+    }
+}
+@media (max-width: 500px) {
+    .leafletContainer {
+        height: 230px;
+    }
+}

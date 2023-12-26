@@ -1,0 +1,166 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+body {
+  overflow-y: scroll;
+}
+*{
+  margin:0px;
+  padding:0px; 
+  vertical-align:top;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+}
+a, button{
+  cursor:pointer;
+  text-decoration:none;
+  color: inherit;
+  transition: all 0.4s ease;
+}
+select, map, area, a, button{
+  border:0px; 
+  outline:none;
+}
+img{
+  border-style:none;
+}
+h1, h2, h3, h4, h5, h6{
+  font-weight:normal;
+}
+input[type=text], input[type=password], textarea{
+  text-align: left; 
+  background: transparent;
+}
+input, textarea, select{
+  border: 0; 
+  outline: none; 
+  line-height: normal; 
+  -webkit-appearance: none; 
+  border-radius: 0;
+}
+textarea{
+  resize: none;
+}
+.c{
+  margin: auto;
+  padding: 0 60px;
+}
+.clear{
+  clear: both;
+}
+.none {
+  display: none !important;
+}
+.p_relative{
+  position: relative;
+}
+.col{
+  display: inline-block;
+}
+.col_1{
+  width: 100%;
+}
+.col_2{
+  width: 50%;
+}
+.col_3{
+  width: 33.33%;
+}
+.col_4{
+  width: 25%;
+}
+.image {
+  position: relative;
+  display: block;
+}
+.bg_full {
+  background: url() no-repeat 50% 50%;
+  overflow: hidden;
+  background-size: cover;
+}
+.bg_full, .full-dimension, .full_el {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  overflow: hidden;
+  min-height: 800px;
+}
+.wrapper.lock {
+  position: fixed;
+  width: 100%;
+  left: 0;
+}
+.c{
+  max-width: 1400px;
+    margin: auto;
+    padding: 0 60px;
+}
+li{
+  list-style: none;
+}
+.t_right{
+  text-align: right;
+}
+.about_con{
+  padding:40px 0;
+}
+.b_tit{
+  text-align: center;
+}
+.b_tit h2{
+  font-size: 23px;
+  font-weight: 600;
+}
+.leaflet-control-attribution a{
+  display: none;
+}
+.leaflet-container .leaflet-control-attribution{
+  display: none;
+}
+@media (max-width: 1024px) {
+  .b_tit h2 {
+    font-size: 21px;
+  }
+  .about_con {
+    padding: 30px 0;
+  }
+  .c{
+    padding: 0 40px;
+  }
+}
+@media (max-width: 740px) {
+  .b_tit h2 {
+    font-size: 19px;
+  }
+}
+@media (max-width: 500px) {
+  .c {
+    padding: 0 20px;
+  }
+  .b_tit h2 {
+    font-size: 18px;
+  }
+}

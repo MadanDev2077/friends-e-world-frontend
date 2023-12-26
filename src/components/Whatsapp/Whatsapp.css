@@ -1,0 +1,40 @@
+.w_app {
+    position: fixed;
+    bottom: 40px;
+    right: 20px;
+    color: white;
+    background-color: green;
+    border-radius: 56px;
+    width: 50px;
+    height: 50px;
+    transition: .3s all ease;
+    z-index: 3;
+}
+.w_app svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 36px;
+}
+.w_app:hover {
+    transform: scale(1.07);
+}
+@media (max-width: 1024px) {
+    .w_app svg{
+        font-size: 32px;
+    }
+    .w_app{
+        width: 45px;
+        height: 45px;
+    }
+}
+@media (max-width: 740px){
+    .w_app {
+        width: 40px;
+        height: 40px;
+    }
+    .w_app svg {
+        font-size: 29px;
+    }
+}

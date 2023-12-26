@@ -1,0 +1,94 @@
+.add_con .icon {
+    font-size: 23px;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    border-radius: 30px;
+    background-color: #769f9f;
+}
+.add_con .icon svg{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}
+.ad_wrap{
+    margin-top: 15px;
+}
+.ad_title{
+    margin-bottom: 15px;
+}
+.ad_wrap p{
+    margin-top: 5px;
+}
+.contact_con{
+    padding: 40px 0;
+    background-color: #004c4d;
+    color: #fff;
+}
+.add_con .col{
+    padding: 0 25px;
+}
+.add_con .row{
+    margin: 0 -25px;
+}
+.contact_con .sec_con{
+    margin-top: 30px;
+}
+@media (max-width:1024px) {
+    .contact_con{
+        padding: 30px 0;
+    }
+    .contact_con .sec_con{
+        margin-top: 25px;
+    }
+    .add_con .icon{
+        width: 35px;
+        height: 35px;
+        font-size: 16px;
+    }
+    .ad_title{
+        font-size: 15px;
+    }
+    .ad_wrap p{
+        font-size: 15px;
+    }
+    .add_con .col{
+        padding: 0 20px;
+    }
+    .add_con .row{
+        margin: 0 -20px;
+    }
+}
+@media (max-width:740px){
+    .add_con .col {
+        padding: 0 15px;
+    }
+    .add_con .row {
+        margin: 0 -15px;
+    }
+    .contact_con {
+        padding: 25px 0;
+    }
+}
+@media (max-width: 500px) {
+    .add_con .col_3{
+        width: 100%;
+    }
+    .add_con .row {
+        margin: 0;
+    }
+    .add_con .col {
+        padding: 0;
+        margin-top: 25px;
+    }
+    .ad_title {
+        font-size: 13px;
+        margin-bottom: 13px;
+    }
+    .contact_con .sec_con {
+        margin-top: 0;
+    }   
+}

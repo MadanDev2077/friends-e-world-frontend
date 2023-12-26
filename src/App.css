@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.app_container {
+  font-family: 'Josefin Sans', cursive;
+  overflow: hidden;
+}
+#map {
+  height: 180px;
+}

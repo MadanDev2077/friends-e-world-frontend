@@ -1,0 +1,149 @@
+.card_grid img{
+    width: 500px;
+    height: 300px;
+    border-radius:5px;
+    filter: blur(3px);
+}
+.services_con{
+    padding: 40px 0;
+    background-color: #c9e8e0;
+}
+.services_con .sec_con{
+    margin-top: 30px;
+}
+.serv_tit{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    z-index: 1;
+    font-weight: 600;
+    font-size: 23px;
+    display: block;
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+}
+.card_container .card_grid {
+    position: relative;
+}
+.card_container:hover {
+    transform: scale(1.02);
+}
+.card_container {
+    transition: .4s all ease;
+}
+.card_container .card_grid:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(0 0 0 / 76%);
+    width: 100%;
+    height: 100%;
+    border-radius:5px;
+}
+@media (max-width:1024px) {
+    .services_con{
+        padding: 30px 0;
+    }
+    .services_con .sec_con {
+        margin-top: 25px;
+    }
+    .lguFiu .kXteup{
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .lguFiu .Slxdj{
+        width: 40px;
+        height: 40px;
+        min-width: 40px;
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .jtKTCe .ezKHIn{
+        height: 8px;
+        width: 8px;
+    }
+    .jtKTCe .cVXxbE{
+        height: 8px;
+        width: 8px;
+    }
+    .serv_tit{
+        font-size: 20px;
+    }
+    .card_grid img {
+        width: 460px;
+        height: 275px;
+    }
+}
+@media (max-width:740px){
+    .lguFiu .kXteup {
+        width: 35px;
+        height: 35px;
+        min-width: 35px;
+        font-size: 19px;
+        line-height: 37px;
+    }
+    .lguFiu .Slxdj {
+        width: 35px;
+        height: 35px;
+        min-width: 35px;
+        font-size: 19px;
+        line-height: 37px;
+    }
+    .card_grid img {
+        width: 400px;
+        height: 250px;
+    }
+    .serv_tit {
+        font-size: 19px;
+    }
+    .jtKTCe .ezKHIn {
+        height: 7px;
+        width: 7px;
+    }
+    .jtKTCe .cVXxbE {
+        height: 7px;
+        width: 7px;
+    }
+    .services_con {
+        padding: 25px 0;
+    }
+}
+@media (max-width: 500px) {
+    .services_con {
+        padding: 20px 0;
+    }
+    .services_con .sec_con {
+        margin-top: 20px;
+    }
+    .lguFiu .kXteup {
+        width: 30px;
+        height: 30px;
+        min-width: 30px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .lguFiu .Slxdj {
+        width: 30px;
+        height: 30px;
+        min-width: 30px;
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .card_grid img {
+        width: 250px;
+        height: 190px;
+    }
+    .serv_tit {
+        font-size: 16px;
+    }
+    .rec-pagination{
+        display: none !important;
+    }
+}
